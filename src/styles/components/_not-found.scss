@@ -1,0 +1,29 @@
+.not-found {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+
+  &__box {
+    background: fade-out(white, .10);
+    box-shadow: 3px 3px 3px -2px $grey;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    padding: $l-size;
+    text-align: center;
+    width: 350px;
+  }
+
+  &__image {
+    border-radius: $s-size;
+    height: $m-size;
+    margin-bottom: $xl-size;
+    margin-top: $m-size;
+    width: $m-size;
+  }
+
+  h1, p {
+    margin-bottom: $m-size;
+  }
+}

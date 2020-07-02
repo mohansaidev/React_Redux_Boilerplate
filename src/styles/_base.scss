@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: $dark-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $base-font-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 0px solid $grey;
+}
+
+// Colors
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-card-basic-light: #97deaf;
+$color-card-basic-dark: #55c57a;
+$color-card-basic-darker: #1a9242;
+
+$color-card-intermediate-light: #ffc387;
+$color-card-intermediate-dark: #ffa347;
+$color-card-intermediate-darker: #ff8208;
+
+$color-card-advanced-light: #ba94fb;
+$color-card-advanced-dark: #9154fa;
+$color-card-advanced-darker: #6916f8;
+
+$disabled-color-1: #ebebe4;
+$disabled-color-2: #c6c6c6;
+
+$clip-color: #00344d;
+
+// Font Size
+$smallest-font-size: 1rem;
+$small-font-size: 1.2rem;
+$default-font-size: 1.6rem;
+$large1-font-size: 1.8rem;
+$large2-font-size: 2.2rem;
+$body-default-font-family: Helvetica, Arial, sans-serif;
+// Spacing
+$s-size: 1rem;
+$m-size: 1.5rem;
+$l-size: 3rem;
+$xl-size: 4.5rem;
+$desktop-breakpoint: 450px;
